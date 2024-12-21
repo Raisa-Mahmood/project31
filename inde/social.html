@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Fonts -->
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+        rel="stylesheet" />
+    <style>
+        .media_link {
+            border: 2px double whitesmoke;
+            padding: 5px;
+            border-radius: 50%;
+            margin: 15px;
+            padding: 19px;
+        }
+        body{
+            background:linear-gradient(black,lightgoldenrodyellow);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .navbar {
+            background-color: #343a40;
+        }
+
+        .navbar-brand,
+        .nav-link {
+            color: thistle;
+        }
+        .footer {
+            background-color: darkslategray;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">The Hearth and Table</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="myproject.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="help.html">Help</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="social.html">Social media</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Social media Section-->
+    <div id="social-media" class="container-fluid">
+        <div class="container text-white py-5">
+            <h4 class="text-primary">Social Media</h4>
+            <h1 class="m-heading">Let's make friends!</h1>
+            <h6>We are open from [Opening Hours], [Days of the Week]. Please check our Contact page for any special holiday hours.</h6>
+            <div class="row pt-5">
+                <div class="col-3 media_link btn" href="#">
+                    <div class="row">
+                        <div class="col-6 d-flex justify-content-start">
+                            <h3 class="m-0 pt-2 text-white">LinkedIn</h3>
+                        </div>
+                        <div class="col-6 d-flex justify-content-end align-items-center">
+                            <i class="fab fa-linkedin-in fa-2x text-secondary"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 media_link btn" href="#">
+                    <div class="row">
+                        <div class="col-6 d-flex justify-content-start">
+                            <h3 class="m-0 pt-2 text-white">GitHub</h3>
+                        </div>
+                        <div class="col-6 d-flex justify-content-end align-items-center">
+                            <i class="fa-brands fa-github text-secondary"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 media_link btn" href="#">
+                    <div class="row">
+                        <div class="col-6 d-flex justify-content-start">
+                            <h3 class="m-0 pt-2 text-white">Youtube</h3>
+                        </div>
+                        <div class="col-6 d-flex justify-content-end align-items-center">
+                            <i class="fa-brands fa-youtube text-secondary"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 media_link bg-info btn" href="#">
+                    <div class="row">
+                        <div class="col-6 d-flex justify-content-start">
+                            <h3 class="m-0 pt-2 text-white">Email</h3>
+                        </div>
+                        <div class="col-6 d-flex justify-content-end align-items-center">
+                            <i class="fa-regular fa-envelope text-secondary"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 The Hearth and Table. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
